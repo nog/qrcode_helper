@@ -1,13 +1,21 @@
-QrcodeHelper
+QRCodeHelper
 ============
 
-Introduction goes here.
+QRCode Helper plugin
 
 
 Example
 =======
 
-Example goes here.
+1. install
+./script/plugin install git://github.com/nog/qrcode_helper.git
+
+2. in your view
+
+<%=qrcode_image_tag(text, size, options) %>
+text:qrcode data
+size:qrcode side size
+options: options of image_tag method.
 
 
 Copyright (c) 2009 Shingo Noguchi( http://cureblack.com ), released under the MIT license
